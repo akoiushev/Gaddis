@@ -23,3 +23,55 @@ print("-" * 10)
 # 11
 number = 1234567.456
 print(format(number, ',.1f'))
+print("-" * 10)
+
+# 12
+print('Джордж', 'Джон', 'Пол', 'Ринго', sep='@')
+print("-" * 10)
+
+# 13 Круг диаметром 70
+# import turtle
+# turtle.circle(70)
+# # turtle.done()
+# print("-" * 10)
+#
+# # 14 Квадрат синего цвета со стороной 100
+# import turtle
+#
+# turtle.fillcolor("blue")
+# turtle.begin_fill()
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.end_fill()
+# # turtle.done()
+#
+# print("-" * 10)
+
+# Квадрат со стороной 100, в центре квардрата синий круг диаметром 80
+import turtle
+turtle.penup()
+turtle.forward(50)
+turtle.left(90)
+turtle.pendown()
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(50)
+# turtle.penup()
+# turtle.goto(0, 0)
+# turtle.pendown()
+turtle.fillcolor("red")
+turtle.begin_fill()
+turtle.circle(50)
+turtle.end_fill()
+turtle.done()
