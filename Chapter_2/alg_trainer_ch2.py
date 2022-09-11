@@ -52,7 +52,7 @@ print("-" * 10)
 #
 # print("-" * 10)
 
-# Квадрат со стороной 100, в центре квардрата синий круг диаметром 80
+# Квадрат со стороной 100, в центре квардрата красный круг диаметром 80
 import turtle
 turtle.penup()
 turtle.forward(50)
@@ -67,11 +67,10 @@ turtle.left(90)
 turtle.forward(100)
 turtle.left(90)
 turtle.forward(50)
-# turtle.penup()
-# turtle.goto(0, 0)
-# turtle.pendown()
 turtle.fillcolor("red")
 turtle.begin_fill()
 turtle.circle(50)
 turtle.end_fill()
 turtle.done()
+
+print("-" * 10)
